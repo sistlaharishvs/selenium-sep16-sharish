@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="base Suite[Default suite]" guice-stage="DEVELOPMENT">
+	<test thread-count="5" name="Default Test1(final)" verbose="5">
+    <classes>
+    	<class name="week5.day1.assigments.CreateLead">
+			<methods>
+			<include name = "BeforeSuite"/>
+			<include name = "Test1"/>
+			<include name = "BeforeTest"/>
+			<include name = "BeforeClass"/>
+			<include name = "BeforeMethod"/>
+			<include name = "runCreate"/>
+			<include name = "AfterMethod"/>
+			<include name = "AfterClass"/>
+			<include name = "AfterTest"/>
+			</methods>
+			</class><!-- week5.day1.assigments.CreateLead  -->
+		</classes>
+      </test> <!--week5.day1.assigments.CreateLead-->
+      <test thread-count="5" name="Default Test2(final)" verbose="5">
+       <classes>
+    	<class name="week5.day1.assigments.DeleteLead">
+			<methods>
+			<include name = "BeforeSuite"/>
+			<include name = "Test1"/>
+			<include name = "BeforeTest"/>
+			<include name = "BeforeClass"/>
+			<include name = "BeforeMethod"/>
+			<include name = "deletelead"/>
+			<include name = "AfterMethod"/>
+			<include name = "AfterClass"/>
+			<include name = "AfterTest"/>
+			</methods>
+			</class><!-- week5.day1.assigments.DeleteLead  -->
+		</classes>
+      </test> <!--week5.day1.assigments.DeleteLead-->
+      <test thread-count="5" name="Default Test3(final)" verbose="5">
+       <classes>
+    	<class name="week5.day1.assigments.DuplicateLead">
+			<methods>
+			<include name = "BeforeSuite"/>
+			<include name = "Test1"/>
+			<include name = "BeforeTest"/>
+			<include name = "BeforeClass"/>
+			<include name = "BeforeMethod"/>
+			<include name = "DuplcateLead"/>
+			<include name = "AfterMethod"/>
+			<include name = "AfterClass"/>
+			<include name = "AfterTest"/>
+			</methods>
+			</class><!-- week5.day1.assigments.DuplicateLead  -->
+		</classes>
+      </test> <!--week5.day1.assigments.DuplicateLead-->
+      <test thread-count="5" name="Default Test4(final)" verbose="5">
+       <classes>
+    	<class name="week5.day1.assigments.EditLead">
+			<methods>
+			<include name = "BeforeSuite"/>
+			<include name = "Test1"/>
+			<include name = "BeforeTest"/>
+			<include name = "BeforeClass"/>
+			<include name = "BeforeMethod"/>
+			<include name = "editlead"/>
+			<include name = "AfterMethod"/>
+			<include name = "AfterClass"/>
+			<include name = "AfterTest"/>
+			</methods>
+			</class><!-- week5.day1.assigments.EditLead  -->
+		</classes>
+      </test> <!--week5.day1.assigments.EditLead-->
+       <test thread-count="5" name="Default Test5(final)" verbose="5">
+       <classes>
+    	<class name="week5.day1.assigments.MergeLead">
+			<methods>
+			<include name = "BeforeSuite"/>
+			<include name = "Test1"/>
+			<include name = "BeforeTest"/>
+			<include name = "BeforeClass"/>
+			<include name = "BeforeMethod"/>
+			<include name = "meargelead"/>
+			<include name = "AfterMethod"/>
+			<include name = "AfterClass"/>
+			<include name = "AfterTest"/>
+			</methods>
+			</class><!-- week5.day1.assigments.MergeLead  -->
+		</classes>
+      </test> <!--week5.day1.assigments.MergeLead-->
+  </suite> <!-- base Suite [Default suite] -->
